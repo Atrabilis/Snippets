@@ -1,5 +1,6 @@
 use dotenvy;
 use std::env;
+
 fn main() {
     let current_directory = env::current_dir();
     let dotenv_directory = current_directory
